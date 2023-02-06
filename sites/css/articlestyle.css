@@ -1,3 +1,9 @@
+div.articleContainer img.articleImage{
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    
+}
 div.articleContainer{ /* Needs to be adapted to mobile form factor*/
     background-color:orange;
     width:40%;
