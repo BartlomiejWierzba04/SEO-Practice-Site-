@@ -1,5 +1,55 @@
 body{
-  background-color: #3E443E;  
+    background-color:white;
+}
+ div.articleContainer img.articleImage{
+    width:50%;
+    height:50%;
+    margin-left:10%;
+    margin-bottom:2%;
+    flex:left;
+}
+div.articleContainer{ /* Needs to be adapted to mobile form factor*/
+    background-color:rgb(253, 189, 71);
+    width:50%;
+    border-bottom:solid;
+    border-width:5px;
+    border-color:#111111;
+    border-left:solid;
+    margin-left:10px;
+
+}
+p.descriptiontext{
+    font-family:verdana;
+    font-size:100px;
+    color:white;
+}
+div.articleCointainer p.authorName{
+    font-family:verdana;
+    opacity:0.8;
+    color:black;
+}
+div.articleContainer h2.title{
+    font-family:"Arial Black";
+    font-size:20px;
+    color:#111111;
+    margin:10px;
+    margin-top:20px;
+    text-decoration:underline #111111;
+    text-decoration-thickness:3px;
+}
+div.articleContainer.span{
+    display:inline-block;
+    flex:left;
+}
+h1.title{
+    font-family:"Arial Black";
+    font-size:30px;
+    font-weight:800px;
+    color:#2e2e2e;
+    font-style:bold;
+    text-decoration:underline #111111;
+    text-decoration-thickness:3px;
+    padding-bottom:40px;
 }
 ul.sidenav {
     list-style-type: none;
@@ -8,8 +58,11 @@ ul.sidenav {
     width: 15%;
     height: 100%;
     display:block;
-    background-color: #A00D08;
+    background-color: white;
     position: fixed;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
   }
 
 ul.sidenav li a {
@@ -17,7 +70,7 @@ ul.sidenav li a {
     padding: 16px 20px;
     text-decoration: none;
     font-family:Arial;
-    color:white;
+    color:#111111;
 
 }
 ul.sidenav a{
@@ -28,14 +81,14 @@ ul.sidenav li{
     display:block;
 }
 ul.sidenav li:hover:not(.active) {
-    background-color: #9e4242;
+    background-color: rgb(241, 195, 109);
   }
 ul.sidenav li.active{
-    background-color:black;
+    background-color:orange;
 }
 div.content{
     margin-left:  15%;
-    padding:1px 16px;
+    padding:10px 40px;
     height: 1000px;
 }
 img.sitelogo{
@@ -48,7 +101,6 @@ img.sitelogo{
       width: 100%;
       height: auto;
       position: relative;
-      background-color: #A00D08;
     }
     ul.sidenav li a{
         float:left;
